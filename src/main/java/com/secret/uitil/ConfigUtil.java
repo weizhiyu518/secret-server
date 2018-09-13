@@ -11,7 +11,7 @@ import java.util.Map;
  */
 public class ConfigUtil {
 
-    public static final Map<String, CertificateConfigBean> CERTIFICATE_CONFIG = Maps.newHashMap();
+    private static final Map<String, CertificateConfigBean> CERTIFICATE_CONFIG = Maps.newHashMap();
 
     static {
 
